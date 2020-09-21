@@ -2080,7 +2080,7 @@ SITE BANNER
 	margin-top: 70px;
 }
 .banner-caption .banner-countdown {
-	width: 90%;
+	width: 75%;
 	margin: 80px auto 0 auto;
 	padding: 0;
 	display: flex;
@@ -2092,14 +2092,14 @@ SITE BANNER
 	display: flex;
 	width: 130px;
 	color: #fff;
-	padding: 0 30px;
+	padding: 0 20px;
 	position: relative;
 	flex: auto;
 	flex-direction: column;
 	justify-content: center;
 	background: rgba(0,0,0,0.5);
 	border-radius: 5px;
-	min-height: 160px;
+	min-height: 100px;
 	margin-right: 10%;
 }
 .countdown-wrap:last-child {
@@ -2127,7 +2127,7 @@ SITE BANNER
 	display: none;
 }
 .countdown-wrap span {
-	font-size: 3.4446em;
+	font-size: 1.4446em;
 	font-weight: 700;
 	display: table;
 	line-height: 1;
@@ -2600,10 +2600,12 @@ section.testimonial-section {
 	text-align: center;
 }
 .testimonial-section .widget-title {
-	margin-bottom: 10px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 2.223em;
 }
 .testimonial-wdgt-wrap {
-	text-align: left;
+	#text-align: left;
 	display: flex;
 	flex: 1;
 	flex-flow: row wrap;
@@ -4530,6 +4532,10 @@ section[class*="-section"] .widget_raratheme_featured_page_widget .no-featured-i
 	z-index: 1;
 	padding-right: 40px;
 	padding-bottom: 40px;
+}
+
+.widget_raratheme_featured_page_widget {
+	width: 100%;
 }
 #secondary .widget-featured-holder .img-holder {
 	margin-top: 0;
